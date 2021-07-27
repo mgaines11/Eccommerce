@@ -1,2 +1,2 @@
-# Eccommerce
+# Ecommerce
 Python Django Project
