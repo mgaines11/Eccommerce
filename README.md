@@ -49,7 +49,7 @@ understanding tables
 Tables SQLite
 - Django automatically builds an ID an auto incremented number having the primary key associated to all of the different feilds
     
-Basic Admin config
+Basic VENV config
 
 Activate & Access venv
     - in command prompt terminal
