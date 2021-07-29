@@ -54,5 +54,10 @@ Basic VENV config
 Activate & Access venv
     - in command prompt terminal
         Activation - py -m venv venv
+<<<<<<< Updated upstream
         Acsess - venv\Scripts\activate 
         - Next, pip install django, in the venv
+=======
+        Access - venv\Scripts\activate 
+        - Next, pip install django, in the venv
+>>>>>>> Stashed changes

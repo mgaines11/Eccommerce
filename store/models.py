@@ -10,7 +10,7 @@ class Category(models.Model):
 
     class Meta:
         verbose_name_plural = 'categories'
-        # by default django will change class category to categorys 
+        # by default django will change class category to categories 
         # this func allows to override that setting in the admin area
     
     def __str__(self):
