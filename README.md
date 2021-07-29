@@ -17,6 +17,7 @@ possibly wanted to be added to Project)
 - URL's, Views
 - Templates -> Bootstrap
     # Bootstrap framework (HTML & CSS framework) to quickly build Views
+    - Connect views with a html & CSS template which will be distributed for the user to see so they can see the website I'm building
 - Testing -> Views
 - PEP 8 
      Python Style Conventions
@@ -51,13 +52,22 @@ Tables SQLite
     
 Basic VENV config
 
-Activate & Access venv
+Create venv
     - in command prompt terminal
-        Activation - py -m venv venv
+         - py -m venv venv
 <<<<<<< Updated upstream
-        Acsess - venv\Scripts\activate 
+        Activate - venv\Scripts\activate 
         - Next, pip install django, in the venv
 =======
-        Access - venv\Scripts\activate 
+        Activate - venv\Scripts\activate 
         - Next, pip install django, in the venv
 >>>>>>> Stashed changes
+
+WORK FLOW BASICS
+    - User enters url HTML request or domain into web browser
+    - django searchers for this url in your application 
+    - if the request matches a URL in the system That URL will connect to the view
+    - the view is connected to the database, and template, etc.
+    then the template is sent back to the user with all of the data inserted 
+
+
